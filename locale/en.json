@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Long Input",
+    "description": "Opens a Markdown editor above the composer with a live preview and writes the source back on confirm."
+  }
+}
