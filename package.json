@@ -18,6 +18,7 @@
     "lib/marked.min.js",
     "locale/*.json",
     "icon.svg",
+    "screenshots.json",
     "README.md",
     "THIRD_PARTY_NOTICES.md"
   ],
