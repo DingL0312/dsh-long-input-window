@@ -1,13 +1,13 @@
 {
   "name": "dsh-long-input",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Long-form Markdown input dialog for the DeepSeek Harness Web composer",
   "license": "MIT",
   "type": "module",
   "repository": { "type": "git", "url": "git+https://github.com/DingL0312/dsh-long-input-window.git" },
-"homepage": "https://github.com/DingL0312/dsh-long-input-window#readme",
-"bugs": { "url": "https://github.com/DingL0312/dsh-long-input-window/issues" },
-"keywords": ["dsh-plugin", "dsh","long-input", "markdown"],
+  "homepage": "https://github.com/DingL0312/dsh-long-input-window#readme",
+  "bugs": { "url": "https://github.com/DingL0312/dsh-long-input-window/issues" },
+  "keywords": ["dsh-plugin", "dsh", "long-input", "markdown"],
 
   "exports": {
     ".": "./index.js",
@@ -22,6 +22,7 @@
     "lib/marked.min.js",
     "locale/*.json",
     "icon.svg",
+    "assets/*.jpg",
     "screenshots.json",
     "README.md",
     "README.en.md",

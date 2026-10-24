@@ -40,18 +40,6 @@ dsh plugin --profile web add dsh-long-input
 dsh plugin --profile desktop add dsh-long-input
 ```
 
-### 从 GitHub 安装
-
-```sh
-dsh plugin --profile web add github:DingL0312/dsh-long-input-window
-```
-
-### 从本地目录安装
-
-```sh
-dsh plugin --profile web add ./dsh_md_input_window
-```
-
 ### 图形界面安装
 
 设置 → 插件 → 「+ 添加插件」→ 输入 `dsh-long-input` → 安装 → 重启 DeepSeek Harness。
@@ -80,8 +68,3 @@ dsh plugin --profile web remove dsh-long-input       # 卸载
 - 预览不对原始 HTML 做消毒，请勿粘贴不可信的第三方 HTML。
 - 弹窗打开期间切换会话会自动关闭，避免写回错误的会话。
 - 勾选「记住我的选择」后关闭不再询问；想恢复询问，在插件设置页取消选择或点「恢复默认设置」。
-- 仅面向 Web 界面。
-
-## License
-
-MIT。`marked` 的版权与许可信息见 `THIRD_PARTY_NOTICES.md`。

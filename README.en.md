@@ -40,18 +40,6 @@ On Desktop, target the desktop profile instead:
 dsh plugin --profile desktop add dsh-long-input
 ```
 
-### From GitHub
-
-```sh
-dsh plugin --profile web add github:DingL0312/dsh-long-input-window
-```
-
-### From a local folder
-
-```sh
-dsh plugin --profile web add ./dsh_md_input_window
-```
-
 ### GUI
 
 Settings → Plugins → "+ Add plugin" → enter `dsh-long-input` → Install → restart DeepSeek Harness.
@@ -80,8 +68,3 @@ Settings → Plugins → dsh-long-input:
 - The preview does not sanitize raw HTML — do not paste untrusted third-party HTML.
 - Switching sessions while the dialog is open closes it, so content is never written to the wrong session.
 - Once "remember my choice" is saved, closing no longer asks; unset it in the plugin settings (or use "Restore defaults") to ask again.
-- Web UI only.
-
-## License
-
-MIT. Copyright and license information for `marked` is in `THIRD_PARTY_NOTICES.md`.

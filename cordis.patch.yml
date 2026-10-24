@@ -1,3 +1,3 @@
 - insert:
     - id: dsh-long-input
-      name: '@local/dsh-long-input'
+      name: 'dsh-long-input'

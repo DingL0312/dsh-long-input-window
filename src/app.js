@@ -10,7 +10,7 @@
  * back, replacing the whole draft through inputActions.setDraft().
  */
 window.__ModuleLoader__.load({
-  id: '@local/dsh-long-input',
+  id: 'dsh-long-input',
   factory(require) {
     'use strict';
 
@@ -454,7 +454,7 @@ window.__ModuleLoader__.load({
 .dli-button.is-primary {
   border-color: var(--dsw-alias-brand-primary);
   background: var(--dsw-alias-brand-primary);
-  color: #ffffff;
+  color: var(--dsw-alias-label-primary-foreground);
 }
 .dli-button.is-primary:hover {
   opacity: 0.9;
@@ -609,7 +609,7 @@ window.__ModuleLoader__.load({
   border: 1px solid var(--dsw-alias-border-l2);
   border-radius: 5px;
   background: transparent;
-  color: #ffffff;
+  color: var(--dsw-alias-label-primary-foreground);
 }
 .dli-setting-option.is-selected .dli-setting-check {
   border-color: var(--dsw-alias-brand-primary);
@@ -1487,7 +1487,7 @@ window.__ModuleLoader__.load({
 
         ctx.slots.inject('plugins.bundle.config', () => ctx.slots.register({
           name: 'plugins.bundle.config',
-          key: '@local/dsh-long-input',
+          key: 'dsh-long-input',
         }, ConfigEntry));
       },
     };
