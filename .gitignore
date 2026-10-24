@@ -1,0 +1,5 @@
+node_modules/
+.workbuddy/
+.acl-recovery/
+*.log
+.DS_Store
